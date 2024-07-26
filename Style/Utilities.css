@@ -1,0 +1,40 @@
+.title-lg {
+    font: var(--h1);
+}
+
+.title-md {
+    font: var(--h2);
+}
+
+.title-sm {
+    font: var(--h3);
+}
+
+.subtitle {
+    font: var(--h2-Subtitle);
+}
+
+.text-md{
+    font: var(--text-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.container {
+    width: 1040px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-24{
+    gap: 24px;
+}
