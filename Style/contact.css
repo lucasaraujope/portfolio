@@ -23,30 +23,314 @@
             color: var(--gray-500);
         }
     }
+}
 
-    .links {
-        justify-content: center;
+#links {
+    justify-content: center;
 
 
-        a {
-            padding: 20px;
-            width: 400px;
-            justify-content: space-between;
-            background-color: var(--gray-300);
+    .linkedin {
+        width: 400px;
+        background-color: var(--gray-300);
             border-radius: 8px;
             margin-bottom: 16px;
+        padding: 20px;
 
-            .infos {
+        .infos-linkedin {
+             align-items: center;
+            gap: 12px;
+            justify-content: space-between;
+            
+            
+            div:nth-child(1) {
+                display: flex;
+                gap: 8px;
                 align-items: center;
-                gap: 12px;
-                p{
+            
+                span {
+                    background-image: url(/Assets/icons/LinkedinLogo.png);
+                    width: 28px;
+                    height: 28px;
+                }
+            
+                p {
                     color: var(--gray-500);
                 }
             }
 
-            &>:nth-child(2){
-                object-fit: cover;
+            &>:nth-child(2) {
+                background-image: url(/Assets/icons/ArrowUpRight.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 20px;
+                height: 20px;
             }
+
+        }
+    }
+
+    .linkedin:hover {
+        border: solid 2px #336E9C;
+        align-items: center;
+        gap: 12px;
+        justify-content: space-between;
+    
+    
+        div:nth-child(1) {
+            div:nth-child(1){
+                display: flex;
+                    gap: 8px;
+                    align-items: center;
+                
+                    span {
+                        background-image: url(/Assets/icons/LinkedinLogo-hover.png);
+                        width: 28px;
+                        height: 28px;
+                    }
+                
+                    p {
+                        color: var(--gray-500);
+                    }
+            }
+           
+            div:nth-child(2) {
+                background-image: url(/Assets/icons/ArrowUpRight-hover.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        
+    }
+
+    .instagram {
+        width: 400px;
+        background-color: var(--gray-300);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px;
+    
+        .infos-instagram {
+            align-items: center;
+            gap: 12px;
+            justify-content: space-between;
+    
+    
+            div:nth-child(1) {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+    
+                span {
+                    background-image: url(/Assets/icons/InstagramLogo.png);
+                    background-size: cover;
+                    width: 28px;
+                    height: 28px;
+                }
+    
+                p {
+                    color: var(--gray-500);
+                }
+            }
+    
+                 &>:nth-child(2) {
+                     background-image: url(/Assets/icons/ArrowUpRight.png);
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                     width: 20px;
+                     height: 20px;
+                 }
+    
+             }
+    }
+    
+    .instagram:hover {
+        border: solid 2px #E0355E;
+        align-items: center;
+        gap: 12px;
+        justify-content: space-between;
+    
+    
+        div:nth-child(1) {
+            div:nth-child(1) {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+    
+                span {
+                    background-image: url(/Assets/icons/InstagramLogo-hover.png);
+                    width: 28px;
+                    height: 28px;
+                }
+    
+                p {
+                    color: var(--gray-500);
+                }
+            }
+    
+        }
+    
+        div:nth-child(2) {
+            background-image: url(/Assets/icons/ArrowUpRight-instagram-Hover.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .github {
+        width: 400px;
+        background-color: var(--gray-300);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px;
+    
+        .infos-github {
+            align-items: center;
+            gap: 12px;
+            justify-content: space-between;
+    
+    
+            div:nth-child(1) {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+    
+                span {
+                    background-image: url(/Assets/icons/GithubLogo.png);
+                    background-size: cover;
+                    width: 28px;
+                    height: 28px;
+                }
+    
+                p {
+                    color: var(--gray-500);
+                }
+            }
+    
+            &>:nth-child(2) {
+                background-image: url(/Assets/icons/ArrowUpRight.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 20px;
+                height: 20px;
+            }
+    
+        }
+    }
+    
+    .github:hover {
+        border: solid 2px #060606;
+        align-items: center;
+        gap: 12px;
+        justify-content: space-between;
+    
+    
+        div:nth-child(1) {
+            div:nth-child(1) {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+    
+                span {
+                    background-image: url(/Assets/icons/GithubLogo-preto.png);
+                    width: 28px;
+                    height: 28px;
+                }
+    
+                p {
+                    color: var(--gray-500);
+                }
+            }
+    
+        }
+    
+        div:nth-child(2) {
+            background-image: url(/Assets/icons/ArrowUpRight-gitHubHover.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .email {
+        width: 400px;
+        background-color: var(--gray-300);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px;
+    
+        .infos-email {
+            align-items: center;
+            gap: 12px;
+            justify-content: space-between;
+    
+    
+            div:nth-child(1) {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+    
+                span {
+                    background-image: url(/Assets/icons/EnvelopeSimple.png);
+                    background-size: cover;
+                    width: 28px;
+                    height: 28px;
+                }
+    
+                p {
+                    color: var(--gray-500);
+                }
+            }
+    
+            &>:nth-child(2) {
+                background-image: url(/Assets/icons/ArrowUpRight.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 20px;
+                height: 20px;
+            }
+    
+        }
+    }
+    
+    .email:hover {
+        border: solid 2px #DA2525;
+        align-items: center;
+        gap: 12px;
+        justify-content: space-between;
+    
+    
+        div:nth-child(1) {
+            div:nth-child(1) {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+    
+                span {
+                    background-image: url(/Assets/icons/EnvelopeSimple-red.png);
+                    width: 28px;
+                    height: 28px;
+                }
+    
+                p {
+                    color: var(--gray-500);
+                }
+            }
+    
+        }
+    
+        div:nth-child(2) {
+            background-image: url(/Assets/icons/ArrowUpRight-emailHover.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 20px;
+            height: 20px;
         }
     }
 }
+
